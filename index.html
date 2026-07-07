@@ -1,207 +1,193 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BYTECRAFTERS LIMITED | Software Engineering Company</title>
-    <meta name="description" content="BYTECRAFTERS LIMITED builds reliable web platforms, automation systems, APIs, and digital products for modern teams.">
-    <meta name="keywords" content="BYTECRAFTERS LIMITED, bytecraftersltd.com, software engineering, web development, automation, API development, digital products">
-    <meta property="og:title" content="BYTECRAFTERS LIMITED">
-    <meta property="og:description" content="Software crafted with precision for teams that need dependable digital systems.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://bytecraftersltd.com/">
-    <meta property="og:image" content="assets/bytecrafters-hero-v2.png">
-    <link rel="canonical" href="https://bytecraftersltd.com/">
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>西安宇之麟网络科技有限公司 | 移动互联网产品设计与开发</title>
+    <meta
+      name="description"
+      content="西安宇之麟网络科技有限公司提供 iOS App 开发、互联网应用、专业设计服务、信息系统运行维护及软件开发服务。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header class="site-header" data-header>
-      <a class="brand" href="#top" aria-label="BYTECRAFTERS LIMITED home">
-        <span class="brand-mark" aria-hidden="true">
-          <svg viewBox="0 0 48 48" focusable="false">
-            <path d="M10 8h18c5.5 0 9 3.1 9 8.1 0 3.2-1.6 5.7-4.4 7 3.8 1.1 6.4 4.2 6.4 8.1 0 5.5-4.2 8.8-10.4 8.8H10V8Z"></path>
-            <path d="M18 16h9.2c2 0 3.3 1.1 3.3 2.8s-1.3 2.8-3.3 2.8H18V16Z"></path>
-            <path d="M18 28h10.8c2.2 0 3.7 1.2 3.7 3s-1.5 3-3.7 3H18v-6Z"></path>
-            <path d="M7 13 3 17l4 4"></path>
-            <path d="m41 27 4 4-4 4"></path>
-          </svg>
-        </span>
-        <span class="brand-text">
-          <strong>BYTECRAFTERS</strong>
-          <small>LIMITED</small>
-        </span>
+    <header class="topbar" data-header>
+      <a class="brand" href="./index.html" aria-label="西安宇之麟网络科技有限公司首页">
+        <span class="brand-symbol">Y</span>
+        <span>宇之麟网络科技</span>
       </a>
-
-      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>
+      <button class="nav-button" type="button" aria-label="打开导航" data-menu-toggle>
         <span></span>
         <span></span>
       </button>
-
-      <nav class="site-nav" data-nav>
-        <a href="#studio">Studio</a>
-        <a href="#capabilities">Capabilities</a>
-        <a href="#workflow">Workflow</a>
-        <a href="#company">Company</a>
-        <a class="nav-action" href="mailto:hello@bytecraftersltd.com">Contact</a>
+      <nav class="nav" data-nav>
+        <a href="#about">关于</a>
+        <a href="#services">能力</a>
+        <a href="#work">方向</a>
+        <a href="#contact">联系</a>
+        <a href="./privacy.html">隐私政策</a>
       </nav>
     </header>
 
-    <main id="top">
+    <main>
       <section class="hero">
-        <img class="hero-photo" src="assets/bytecrafters-hero-v2.png" alt="Modern software engineering workspace with cloud architecture interface overlays">
-        <div class="hero-wash" aria-hidden="true"></div>
-
-        <div class="hero-copy reveal">
-          <p class="eyebrow">Software engineering company</p>
-          <h1>
-            <span>BYTECRAFTERS</span>
-            <span>LIMITED</span>
-          </h1>
-          <p class="hero-line">Clean digital systems for teams that need reliable delivery.</p>
-          <p class="hero-text">
-            We build web platforms, APIs, automation workflows, and product infrastructure for teams that want dependable technology without the noise.
+        <div class="hero-copy">
+          <h1>面向移动互联网产品的软件设计与开发。</h1>
+          <p>
+            西安宇之麟网络科技有限公司提供 iOS App、互联网应用、智能控制系统集成、专业设计与信息系统维护相关服务。
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="mailto:hello@bytecraftersltd.com">Start a conversation</a>
-            <a class="button button-ghost" href="#capabilities">See the work</a>
+            <a class="button dark" href="#contact">沟通项目</a>
+            <a class="text-link" href="#services">查看能力</a>
           </div>
         </div>
 
-        <div class="hero-ticker reveal" aria-label="Core service areas">
-          <span>Interface</span>
-          <span>API</span>
-          <span>Cloud</span>
-          <span>Automation</span>
-          <span>Monitoring</span>
-          <span>Release</span>
+        <div class="product-canvas studio-stage" aria-label="移动产品设计与应用界面视觉图">
+          <img
+            src="./assets/mobile-product-studio.png"
+            alt="移动应用界面、原型图与设计工作台视觉图"
+            loading="eager"
+          />
+          <div class="studio-badge studio-badge-top">
+            <span>Prototype</span>
+            <strong>UI Flow</strong>
+          </div>
+          <div class="note-card">
+            <strong>Build notes</strong>
+            <p>iOS / API / TestFlight / Release prep</p>
+          </div>
         </div>
       </section>
 
-      <section class="studio" id="studio">
-        <div class="studio-title reveal">
-          <p class="section-label">Studio</p>
-          <h2>Code is only useful when the system around it is clear.</h2>
-        </div>
-        <div class="studio-copy reveal">
+      <section class="intro" id="about">
+        <p class="label">About us</p>
+        <div>
+          <h2>把产品想法整理成可开发、可维护的应用。</h2>
           <p>
-            BYTECRAFTERS LIMITED works from product intent through implementation and launch support. We keep architecture legible, interfaces focused, and operations maintainable, so your digital product can keep moving after the first release.
+            我们关注移动端产品从原型、界面、接口到上线准备的完整过程。项目可以从一个清晰需求开始，也可以从已有系统的移动端改造开始。
           </p>
-          <a class="text-link" href="mailto:hello@bytecraftersltd.com">hello@bytecraftersltd.com</a>
         </div>
       </section>
 
-      <section class="capabilities section-dark" id="capabilities">
-        <div class="section-heading reveal">
-          <p class="section-label">Capabilities</p>
-          <h2>Practical engineering for products that have to work.</h2>
+      <section class="services" id="services">
+        <div class="section-title">
+          <p class="label">Services</p>
+          <h2>服务能力</h2>
         </div>
-
-        <div class="capability-list">
-          <article class="capability-row reveal">
+        <div class="service-list">
+          <article>
             <span>01</span>
-            <h3>Web Platforms</h3>
-            <p>Company websites, portals, dashboards, admin tools, content systems, and customer-facing digital products.</p>
+            <h3>iOS App 开发</h3>
+            <p>围绕移动端核心流程，完成界面开发、接口联调、测试修复和发布准备。</p>
           </article>
-          <article class="capability-row reveal">
+          <article>
             <span>02</span>
-            <h3>Product Engineering</h3>
-            <p>Frontend and backend implementation for MVPs, service platforms, subscriptions, internal workflows, and growth-stage products.</p>
+            <h3>互联网应用开发</h3>
+            <p>支持用户端、管理端、内容展示、业务办理等互联网应用模块开发。</p>
           </article>
-          <article class="capability-row reveal">
+          <article>
             <span>03</span>
-            <h3>Automation</h3>
-            <p>Data flows, operational tools, reporting pipelines, notifications, integration logic, and repetitive work reduction.</p>
+            <h3>专业设计服务</h3>
+            <p>提供产品结构梳理、页面原型、视觉界面和交互流程整理。</p>
           </article>
-          <article class="capability-row reveal">
+          <article>
             <span>04</span>
-            <h3>APIs & Cloud</h3>
-            <p>API design, database-backed services, deployment, authentication, monitoring, and cloud-connected infrastructure.</p>
+            <h3>系统集成与维护</h3>
+            <p>支持智能控制系统集成、信息系统运行维护和软件后续版本迭代。</p>
+          </article>
+          <article>
+            <span>05</span>
+            <h3>数字内容制作</h3>
+            <p>面向应用内内容、运营页面、基础图文素材和轻量数字内容制作。</p>
+          </article>
+          <article>
+            <span>06</span>
+            <h3>技术咨询</h3>
+            <p>协助评估技术路线、开发周期、接口条件、隐私说明和上线准备事项。</p>
           </article>
         </div>
       </section>
 
-      <section class="systems">
-        <div class="systems-visual reveal" aria-label="Product system layers">
-          <img src="assets/bytecrafters-system-view.png" alt="Layered cloud architecture and production system diagram">
-        </div>
-        <div class="systems-copy reveal">
-          <p class="section-label">System view</p>
-          <h2>Each build is treated as a living production environment.</h2>
+      <section class="studio-feature">
+        <div>
+          <p class="label">Product detail</p>
+          <h2>用更清楚的产品界面，承接更实际的开发工作。</h2>
           <p>
-            We consider the user path, data model, integration surface, release process, and long-term maintenance plan together. The result is software that feels composed, not patched together.
+            官网视觉偏轻，但内容不虚。我们把设计稿、功能边界、接口条件和上线事项放在同一条工作线上处理。
           </p>
         </div>
+        <figure>
+          <img
+            src="./assets/product-delivery-canvas.png"
+            alt="移动产品交付流程与界面组件视觉图"
+            loading="eager"
+          />
+        </figure>
       </section>
 
-      <section class="workflow" id="workflow">
-        <div class="section-heading reveal">
-          <p class="section-label">Workflow</p>
-          <h2>Four moves from unclear brief to reliable release.</h2>
+      <section class="work" id="work">
+        <div class="work-copy">
+          <p class="label">Project directions</p>
+          <h2>适合从小而清晰的产品需求开始。</h2>
         </div>
-
-        <div class="workflow-grid">
-          <div class="workflow-step reveal">
-            <span>Discover</span>
-            <h3>Define the job</h3>
-            <p>Clarify users, business value, constraints, and the smallest release worth shipping.</p>
+        <div class="work-lines">
+          <div>
+            <strong>移动互联网工具</strong>
+            <span>适用于用户服务、内容管理、会员功能、预约咨询等移动端场景。</span>
           </div>
-          <div class="workflow-step reveal">
-            <span>Design</span>
-            <h3>Make it legible</h3>
-            <p>Shape flows, states, content, and interface structure before production code hardens.</p>
+          <div>
+            <strong>企业业务 App</strong>
+            <span>适用于内部流程、现场采集、设备管理、任务协同等业务应用。</span>
           </div>
-          <div class="workflow-step reveal">
-            <span>Build</span>
-            <h3>Engineer the system</h3>
-            <p>Implement the frontend, backend, integrations, data layer, and operational visibility.</p>
+          <div>
+            <strong>系统配套应用</strong>
+            <span>适用于已有后台、硬件或数据系统的移动端补充开发。</span>
           </div>
-          <div class="workflow-step reveal">
-            <span>Operate</span>
-            <h3>Improve in public</h3>
-            <p>Launch, monitor, learn, and keep the product moving with calm technical support.</p>
+          <div>
+            <strong>产品迭代支持</strong>
+            <span>适用于已有 App 的功能扩展、页面调整、问题修复和版本维护。</span>
           </div>
         </div>
       </section>
 
-      <section class="company section-dark" id="company">
-        <div class="company-copy reveal">
-          <p class="section-label">Company</p>
-          <h2>BYTECRAFTERS LIMITED</h2>
+      <section class="method">
+        <div class="method-card">
+          <p class="label">How we work</p>
+          <h2>简单、明确、按阶段推进。</h2>
           <p>
-            A software engineering company for practical, polished, maintainable digital systems. Direct collaboration, strong execution, and clear technical decisions sit at the center of the work.
+            我们会先确认需求范围和交付边界，再整理原型、接口、功能清单和测试重点。开发过程中保持阶段反馈，减少后期返工。
           </p>
         </div>
-
-        <dl class="company-table reveal">
-          <div>
-            <dt>Recommended domain</dt>
-            <dd>bytecraftersltd.com</dd>
-          </div>
-          <div>
-            <dt>Email</dt>
-            <dd>hello@bytecraftersltd.com</dd>
-          </div>
-          <div>
-            <dt>Business focus</dt>
-            <dd>Web platforms, automation, APIs, and cloud systems</dd>
-          </div>
-        </dl>
+        <div class="steps">
+          <span>需求沟通</span>
+          <span>原型与界面</span>
+          <span>开发联调</span>
+          <span>测试交付</span>
+        </div>
       </section>
 
-      <section class="contact">
-        <div class="contact-inner reveal">
-          <p class="section-label">Contact</p>
-          <h2>Bring the brief. We will shape the system.</h2>
-          <a class="button button-primary" href="mailto:hello@bytecraftersltd.com">hello@bytecraftersltd.com</a>
+      <section class="contact" id="contact">
+        <div>
+          <p class="label">Contact</p>
+          <h2>有移动应用或软件开发需求，可以先发一封邮件。</h2>
+          <p>请说明项目背景、期望平台、已有资料和计划时间，我们会根据内容做初步沟通。</p>
         </div>
+        <a class="mail" href="mailto:contact@yuzhilintech.com">contact@yuzhilintech.com</a>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <p>© <span data-year></span> BYTECRAFTERS LIMITED. All rights reserved.</p>
-      <a href="mailto:hello@bytecraftersltd.com">bytecraftersltd.com</a>
+    <footer class="footer">
+      <div>
+        <strong>西安宇之麟网络科技有限公司</strong>
+        <span>移动互联网产品设计与软件开发服务</span>
+      </div>
+      <div class="footer-meta">
+        <a href="./privacy.html">隐私政策</a>
+        <span>ICP备案号：待备案</span>
+        <span>© <span data-year></span> 西安宇之麟网络科技有限公司</span>
+      </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
